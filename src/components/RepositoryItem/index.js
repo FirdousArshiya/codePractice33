@@ -14,25 +14,25 @@ const RepositoryItem = props => {
         <img
           src="https://assets.ccbp.in/frontend/react-js/stars-count-img.png"
           alt="stars"
-          className="stars-icon"
+          className="stats-icon"
         />
-        <p className="stars-text">{starsCount} stars</p>
+        <p className="stats-text">{starsCount} stars</p>
       </div>
       <div className="stats-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/forks-count-img.png"
           alt="forks"
-          className="stars-icon"
+          className="stats-icon"
         />
-        <p className="stars-text">{forksCount} forks</p>
+        <p className="stats-text">{forksCount} forks</p>
       </div>
       <div className="stats-container">
         <img
           src="https://assets.ccbp.in/frontend/react-js/issues-count-img.png"
           alt="issues"
-          className="stars-icon"
+          className="stats-icon"
         />
-        <p className="stars-text">{issuesCount} open issues</p>
+        <p className="stats-text">{issuesCount} open issues</p>
       </div>
     </li>
   )
